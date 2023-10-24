@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color:#FFFFFF;
+    color: #69C2A7;
     font-family: Futura;
     font-size: 2rem;
     font-style: normal;
@@ -39,7 +39,7 @@ p {
 header {
     display: flex;
     align-items: center;
-    justify-content:    space-between;
+    justify-content: space-between;
 }
 
 nav {
@@ -81,8 +81,28 @@ a {
     margin: 0 0 0 2rem;
 }
 
-a:visited,
-.selected {
+a:hover {
     color: #F1880D;
-    border-bottom: 1px solid #F1880D;
 }
+
+#byline {
+    text-align: center;
+    grid-column: 3/11;
+    margin-bottom: 20%;
+}
+
+#project_1 {
+    grid-column: 1/6;
+}
+ 
+#description_1 {
+    grid-column: 8/12;
+}
+#project_2 {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 1/12
+}
+rezise images
