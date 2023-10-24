@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
     color:#FFFFFF;
     background-color: #024959;
-    max-width: 90rem;
+    max-width: 70.25rem;
 }
 
 h1 {
@@ -37,24 +37,32 @@ p {
 }
 
 header {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content:    space-between;
 }
 
 nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main {
+    
+}
 
+section {
+    margin: 1.85rem auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
 }
 
 nav,
 footer {
-    color:#FFFFFF;
+    color: #69C2A7;
     font-family: Futura;
     font-size: 2rem;
     font-style: normal;
