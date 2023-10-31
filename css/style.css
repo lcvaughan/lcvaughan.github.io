@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-    color: #69C2A7;
     font-family: Futura;
     font-size: 2rem;
     font-style: normal;
@@ -142,21 +141,23 @@ Resize images
 
 
 #project_2_img {
+    margin-top: 25%;
     grid-column: 1/13;
     grid-row: 1/2;
 }
 
-#decription_2 {
-    grid-column: 1/13;
-    grid-row: 2/3;
+#description_2 {
+    text-align:center;
+    grid-column: 3/10;
 }
 
 #project_3 {
+    margin-top: 10%;
     grid-column: 8/11;
 }
 
 #description_3 {
-    margin-top: 40%;
+    margin-top: 50%;
     grid-column: 1/7;
 }
 
@@ -185,6 +186,11 @@ Resize images
     grid-column: 6/13;
 }
 
+#contact_description {
+    text-align: center;
+    grid-column: 9/10;
+}
+
 input, textarea {
     background-color: #024959;
     border: 2px solid #FFFFFF;
@@ -195,15 +201,24 @@ input, textarea {
 }
 
 label {
-
+display: block;
+margin: 16px 0px 16px 0px;;
 }
 
 textarea {
-
+height: 320px;
 }
 
 button {
-    
+background-color: #69C2A7;
+border: none;
+font-size: 20px;
+font-family: futura-pt, sans-serif;
+padding: 8px 16px 8px 16px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #F1880D;
 }
 /* rezise images */
 
