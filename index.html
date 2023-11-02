@@ -17,13 +17,14 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header>
-            <a href="index.html"></a>
-                <h1 class="selected"></h1>
+            <div id="logo">
+                <a>
                 <img src="img/libertyvaughan_logo-2.png" alt="Liberty Vaughan designer logo">
-            </h1>
-            </a>
+                </h1>
+             </a>
+            </div>
             <nav>
-                <a href="portfolio.html">
+                <a href="index.html">
                     <h1 class="selected">Portfolio</h1>
                 </a>
                 <a href="about.html">
@@ -87,95 +88,14 @@
                     <h2>Designer Book</h2>
                     <h3>InDesign + Epson Print, Spring 2023</h3>
                     <h4>An accordion style book about a designer and their work with the purpose of design. This book is about Jonathan Adler who is a beloved product designer for his American glamor mid-century work that is seen in his stores. This book consists of 10 pages that have a theme surrounding the colors, textures and style of the designer’s work. The book is meant to express the designer’s style along with my own design style.</h4>
+                    <h3>Click the image to see the book</h3>
                 </div>
             </section>
-    
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 10</div>
-                    <img src="img/Book-1.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 10</div>
-                    <img src="img/Book-2.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 10</div>
-                    <img src="img/Book-3.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 10</div>
-                    <img src="img/Book-4.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 10</div>
-                    <img src="img/Book-5.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 10</div>
-                    <img src="img/Book-6.png" style="width:100%".>
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 10</div>
-                    <img src="img/Book-7.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 10</div>
-                    <img src="img/Book-8.png" style="width:100%".>
-                <div class="mySlides fade">
-                    <div class="numbertext">9 / 10</div>
-                    <img src="img/Book-9.png" style="width:100%".>
-                </div>
-                <div class="mySlides fade">
-                    <div class="numbertext">10 / 10-</div>
-                    <img src="img/Book-10.png" style="width:100%".>
-                </div>
-        
-                <a class="prev" onclick="plusSlides(-1)">❮ </a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
+            <a href="https://issuu.com/libertyvaughanportfolio/docs/indesign_book_project" target="_blank">
+        <div id="project_5">
+                <img src="img/Book-1.png" alt="Liberty Vaughan Book of Jonhathan Adler">
+            </a>
         </div>
-                <br>
-                    <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)">
-                    </span>
-                    <span class="dot" onclick="currentSlide(2)">
-                    </span>
-                    <span class="dot" onclick="currentSlide(3)">
-                    </span>
-                    <span class="dot" onclick="currentSlide(1)">
-                    </span>
-                </div>
-
-            <script>
-                let slideIndex = 1;
-                showSlides(slideIndex);
-
-                // Next/previous controls
-                function plusSlides(n) {
-                showSlides(slideIndex += n);
-                }
-
-                // Thumbnail image controls
-                function currentSlide(n) {
-                showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " active";
-                }
-            </script>
-
         </main>
         <footer>
             <a href="mailto:lcvaughan@dons.usfca.edu" target="_blank">

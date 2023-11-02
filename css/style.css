@@ -37,6 +37,8 @@ p {
 
 
 header {
+    border-bottom: #FFFFFF;
+    border: solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,6 +86,10 @@ a {
 
 a:hover {
     color: #F1880D;
+}
+
+#logo {
+    margin-bottom: 2%;
 }
 
 #byline {
@@ -157,10 +163,15 @@ a:hover {
     grid-column: 9/14;
 }
 
+#project_5 {
+    margin-bottom: 20%;
+    grid-column: 6/10;
+  }
+
 #description_5 {
     margin-top: 40%;
     text-align: center;
-    grid-column: 3/11;
+    grid-column: 1/9;
 }
 
 #aboutme_img {
@@ -290,6 +301,4 @@ img {
     from {opacity: .4}
     to {opacity: 1}
   }
-
-
 
